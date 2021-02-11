@@ -12,6 +12,7 @@ class pred_validation:
         self.file_object = open("Prediction_Logs/Prediction_Log.txt", 'a+')
         self.log_writer = logger.App_Logger()
 
+
     def prediction_validation(self):
 
         try:
